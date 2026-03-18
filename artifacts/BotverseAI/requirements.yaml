@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For smooth scroll animations, page transitions, and element reveals essential for a premium tech feel"
+  "react-hook-form": "For robust handling of the contact form state"
+  "@hookform/resolvers": "For validating the contact form with Zod"
+  "clsx": "For conditional class merging"
+  "tailwind-merge": "For merging tailwind classes safely"
+
+images:
+  - path: "artifacts/veltrix/public/images/hero-abstract.png"
+    description: "Abstract, elegant 3D geometric shapes representing automation and artificial intelligence, deep warm blue and indigo with subtle warm amber lighting, clean minimalist composition, high-end professional corporate tech feel"
+    aspect_ratio: "16:9"
+  - path: "artifacts/veltrix/public/images/pattern-bg.png"
+    description: "Subtle dotted grid pattern with gentle radial gradients in deep blue, perfect for a modern dark mode section background"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a fully static marketing frontend. Forms are mocked with timeouts to simulate network latency before showing a success toast.
