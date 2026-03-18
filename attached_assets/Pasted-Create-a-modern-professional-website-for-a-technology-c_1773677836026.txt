@@ -1,0 +1,99 @@
+Create a modern, professional website for a technology consulting company that provides intelligent automation services to businesses worldwide.
+
+Company Name: Veltrix
+Tagline: Intelligent Automation for the Future of Work
+
+Company Overview:
+The company helps organizations automate their business processes using RPA (Robotic Process Automation), Artificial Intelligence, Large Language Models (LLMs), and AI Agents. The goal is to reduce manual work, improve efficiency, and enable digital transformation for enterprises across industries such as finance, healthcare, manufacturing, and retail.
+
+Target Audience:
+
+* Global enterprises
+* Mid-size companies
+* CTOs, CIOs, Automation Leaders, and Operations Teams
+
+Website Style:
+
+* Clean, modern, and premium tech-company design
+* Similar feel to companies like UiPath, OpenAI, and Accenture
+* Minimalistic UI with strong typography and smooth animations
+* Colors: professional tech palette (white, Blue, subtle gradients), Use warmer color
+* Fully responsive for mobile, tablet, and desktop
+
+Pages to Create:
+
+1. Home Page
+
+* Strong hero section with headline like:
+  "Intelligent Automation for the Future of Work"
+* Subtext explaining automation using RPA, AI, and LLMs
+* Call-to-action buttons: "Book a Consultation" and "Explore Solutions"
+* Key services overview
+* Industries served
+* Benefits such as cost reduction, scalability, and efficiency
+* Client success highlights
+* Footer with contact and social links
+
+2. Services Page
+   Sections describing:
+
+* RPA Development and Implementation
+* AI and Machine Learning Solutions
+* LLM-powered Automation
+* AI Agents and Autonomous Workflows
+* Intelligent Document Processing
+* Process Assessment and Automation Consulting
+
+Each service should include benefits and example use cases. Do not show actual numbers
+
+3. Solutions / Use Cases
+   Show how automation solves real business problems:
+
+* Finance and Accounting Automation
+* Customer Support Automation
+* Data Extraction and Processing
+* Supply Chain Automation
+* IT Operations Automation
+
+4. About Us
+
+* Company mission and vision
+* Expertise in automation and AI
+* Global delivery model
+* Experienced engineers and consultants
+
+5. Blog / Insights
+
+* Articles on RPA
+* AI in business
+* LLM automation
+* Future of AI agents
+* Digital transformation strategies
+
+Write generic benefits of each sections
+
+6. Contact Page
+
+* Contact form
+* Email and LinkedIn links
+* Option to schedule consultation
+* Global service message: "Serving clients worldwide"
+Leadership Team:
+Founder & CEO: Mallikarjun Kurugundala (Makmallikarjun@gmail.com)(https://www.linkedin.com/in/mallikarjun-kurugundala-3a7054192/)
+Co-Founder: Mayank Keshri (keshri.mayank@gmail.com)(https://www.linkedin.com/in/mayankkeshri/)
+Co-Founder: Shubham Anand (shubham.anand@gmail.com)(https://www.linkedin.com/in/shubham-anand-058192107/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+
+Features to Include:
+
+* Modern UI components
+* Smooth scrolling animations
+* Professional icons for AI, automation, and data
+* SEO optimized structure
+* Fast loading performance
+* Lead generation form
+
+Tone of Content:
+Professional, innovative, and trustworthy. Position the company as an expert in intelligent automation and AI-driven digital transformation.
+
+Goal of the Website:
+Generate leads from companies worldwide that want to automate their business processes using RPA, AI, LLMs, and intelligent agents.
