@@ -26,7 +26,6 @@ export function Footer() {
                 { label: 'Home', href: '/' },
                 { label: 'About Us', href: '/about' },
                 { label: 'Solutions', href: '/solutions' },
-                { label: 'Blog', href: '/blog' },
                 { label: 'Contact', href: '/contact' },
               ].map((item) => (
                 <li key={item.label}>
