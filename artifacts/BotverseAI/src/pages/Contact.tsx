@@ -31,15 +31,27 @@ export default function Contact() {
 
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
-    // Simulate network request
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    
-    toast({
-      title: "Message Sent Successfully",
-      description: "Thank you for reaching out. An automation expert will contact you shortly.",
-    });
-    form.reset();
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error("Server error");
+      toast({
+        title: "Message Sent Successfully",
+        description: "Thank you for reaching out. An automation expert will contact you shortly.",
+      });
+      form.reset();
+    } catch {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or email us directly at hello@botverse-ai.com.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -63,8 +75,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-bold mb-1">Email Us directly</h3>
                     <p className="text-muted-foreground mb-2">Our CEO is always open to discussing new opportunities.</p>
-                    <a href="mailto:Makmallikarjun@gmail.com" className="text-primary font-medium hover:underline">
-                      Makmallikarjun@gmail.com
+                    <a href="mailto:hello@botverse-ai.com" className="text-primary font-medium hover:underline">
+                      hello@botverse-ai.com
                     </a>
                   </div>
                 </div>

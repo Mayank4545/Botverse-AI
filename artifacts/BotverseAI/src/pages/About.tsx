@@ -5,21 +5,21 @@ const team = [
   {
     name: "Mallikarjun Kurugundala",
     role: "Founder & CEO",
-    email: "Makmallikarjun@gmail.com",
+    email: "Mallikarjun.Kurugundala@botverse-ai.com",
     linkedin: "https://www.linkedin.com/in/mallikarjun-kurugundala-3a7054192/",
     initials: "MK"
   },
   {
     name: "Mayank Keshri",
     role: "Co-Founder",
-    email: "keshri.mayank@gmail.com",
+    email: "Mayank.Keshri@botverse-ai.com",
     linkedin: "https://www.linkedin.com/in/mayankkeshri/",
     initials: "MK"
   },
   {
     name: "Shubham Anand",
     role: "Co-Founder",
-    email: "shubham.anand@gmail.com",
+    email: "Shubham.Anand@botverse-ai.com",
     linkedin: "https://www.linkedin.com/in/shubham-anand-058192107/",
     initials: "SA"
   }
