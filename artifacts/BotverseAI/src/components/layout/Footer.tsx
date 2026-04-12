@@ -22,14 +22,20 @@ export function Footer() {
           <div>
             <h4 className="font-display font-semibold text-lg mb-6">Company</h4>
             <ul className="space-y-4">
-              {['Home', 'About Us', 'Solutions', 'Blog', 'Contact'].map((item) => (
-                <li key={item}>
+              {[
+                { label: 'Home', href: '/' },
+                { label: 'About Us', href: '/about' },
+                { label: 'Solutions', href: '/solutions' },
+                { label: 'Blog', href: '/blog' },
+                { label: 'Contact', href: '/contact' },
+              ].map((item) => (
+                <li key={item.label}>
                   <Link 
-                    href={item === 'Home' ? '/' : `/${item.toLowerCase().replace(' ', '-')}`}
+                    href={item.href}
                     className="text-white/60 hover:text-white transition-colors text-sm flex items-center gap-2 group"
                   >
                     <ArrowRight size={14} className="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-accent" />
-                    {item}
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -65,8 +71,8 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-white/60 text-sm">
                 <Mail size={18} className="text-primary mt-0.5 shrink-0" />
-                <a href="mailto:Makmallikarjun@gmail.com" className="hover:text-white transition-colors break-all">
-                  Makmallikarjun@gmail.com
+                <a href="mailto:hello@botverse-ai.com" className="hover:text-white transition-colors break-all">
+                  hello@botverse-ai.com
                 </a>
               </li>
               <li className="flex items-start gap-3 text-white/60 text-sm">
