@@ -12,6 +12,7 @@ import Home from "@/pages/Home";
 import Services from "@/pages/Services";
 import Solutions from "@/pages/Solutions";
 import About from "@/pages/About";
+import ROICalculator from "@/pages/ROICalculator";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
 
@@ -27,6 +28,7 @@ function Router() {
           <Route path="/services" component={Services} />
           <Route path="/solutions" component={Solutions} />
           <Route path="/about" component={About} />
+          <Route path="/roi-calculator" component={ROICalculator} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
