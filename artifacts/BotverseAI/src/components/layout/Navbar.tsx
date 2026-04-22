@@ -10,6 +10,7 @@ const navLinks = [
   { name: "Services", href: "/services" },
   { name: "Solutions", href: "/solutions" },
   { name: "About Us", href: "/about" },
+  { name: "ROI Calculator", href: "/roi-calculator" },
 ];
 
 export function Navbar() {

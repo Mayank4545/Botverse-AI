@@ -26,6 +26,7 @@ export function Footer() {
                 { label: 'Home', href: '/' },
                 { label: 'About Us', href: '/about' },
                 { label: 'Solutions', href: '/solutions' },
+                { label: 'ROI Calculator', href: '/roi-calculator' },
                 { label: 'Contact', href: '/contact' },
               ].map((item) => (
                 <li key={item.label}>
